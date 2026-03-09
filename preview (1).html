@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Shiva Krishna Pickles | Homemade Pickles Hyderabad</title>
+
+<meta name="description" content="Authentic homemade Andhra pickles from Hyderabad. Mango, Lemon, Garlic pickles made with traditional recipes and natural ingredients.">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins;
+}
+
+body{
+background:#fff8f2;
+color:#333;
+}
+
+/* HEADER */
+
+header{
+background:#8B0000;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+header h1{
+font-size:32px;
+}
+
+/* NAV */
+
+nav{
+background:#660000;
+display:flex;
+justify-content:center;
+gap:30px;
+padding:12px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:500;
+}
+
+/* HERO */
+
+.hero{
+height:70vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:url("https://images.unsplash.com/photo-1600891964599-f61ba0e24092") center/cover;
+color:white;
+}
+
+.hero h2{
+font-size:48px;
+}
+
+.hero p{
+margin-top:10px;
+font-size:18px;
+}
+
+/* BUTTON */
+
+.btn{
+background:#ff7b00;
+color:white;
+padding:12px 25px;
+border-radius:30px;
+text-decoration:none;
+margin-top:20px;
+display:inline-block;
+}
+
+/* SECTION */
+
+.section{
+padding:60px 20px;
+text-align:center;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+margin-top:40px;
+}
+
+/* PRODUCT CARD */
+
+.card{
+background:white;
+border-radius:12px;
+overflow:hidden;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.card-content{
+padding:15px;
+}
+
+.price{
+font-weight:bold;
+margin:10px 0;
+}
+
+.order-btn{
+background:#8B0000;
+color:white;
+padding:10px 15px;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+
+/* REVIEWS */
+
+.review{
+background:white;
+padding:20px;
+margin:20px auto;
+max-width:500px;
+border-radius:10px;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* CONTACT */
+
+.contact{
+background:#fff0e6;
+}
+
+/* FOOTER */
+
+footer{
+background:#8B0000;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+@media(max-width:600px){
+
+.hero h2{
+font-size:32px;
+}
+
+}
+
+</style>
+
+<script>
+
+function orderNow(product){
+
+let phone="919989238608";
+
+let message="Hello, I want to order "+product+" from Shiva Krishna Pickles";
+
+window.open("https://wa.me/"+phone+"?text="+encodeURIComponent(message));
+
+}
+
+</script>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Shiva Krishna Pickles</h1>
+
+<p>Authentic Homemade Andhra Pickles</p>
+
+</header>
+
+<nav>
+
+<a href="#">Home</a>
+<a href="#products">Pickles</a>
+<a href="#reviews">Reviews</a>
+<a href="#contact">Contact</a>
+
+</nav>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<h2>Traditional Andhra Pickles</h2>
+
+<p>Fresh • Homemade • No Preservatives</p>
+
+<a class="btn" href="#products">Explore Pickles</a>
+
+</section>
+
+<!-- PRODUCTS -->
+
+<section class="section" id="products">
+
+<h2>Our Signature Pickles</h2>
+
+<div class="products">
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1604908176997-43166f02c9c3">
+
+<div class="card-content">
+
+<h3>Mango Pickle (Aavakaaya)</h3>
+
+<p>Authentic spicy Andhra mango pickle.</p>
+
+<p class="price">250g ₹120 | 500g ₹220 | 1kg ₹400</p>
+
+<button class="order-btn" onclick="orderNow('Mango Pickle')">Order Now</button>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1590086782957-93c06ef21604">
+
+<div class="card-content">
+
+<h3>Lemon Pickle</h3>
+
+<p>Sun cured tangy lemon pickle.</p>
+
+<p class="price">250g ₹100 | 500g ₹180 | 1kg ₹350</p>
+
+<button class="order-btn" onclick="orderNow('Lemon Pickle')">Order Now</button>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1598514982836-dc13f5d9e0c8">
+
+<div class="card-content">
+
+<h3>Garlic Pickle</h3>
+
+<p>Rich spicy garlic pickle perfect for curd rice.</p>
+
+<p class="price">250g ₹140 | 500g ₹260 | 1kg ₹480</p>
+
+<button class="order-btn" onclick="orderNow('Garlic Pickle')">Order Now</button>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- REVIEWS -->
+
+<section class="section" id="reviews">
+
+<h2>Customer Reviews</h2>
+
+<div class="review">
+
+⭐⭐⭐⭐⭐  
+<p>Best homemade pickle in Hyderabad. Very authentic taste.</p>
+<b>- Ramesh</b>
+
+</div>
+
+<div class="review">
+
+⭐⭐⭐⭐⭐  
+<p>Reminds me of my grandmother's pickle.</p>
+<b>- Priya</b>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section class="section contact" id="contact">
+
+<h2>Contact & Location</h2>
+
+<p>📞 +91 99892 38608</p>
+
+<p>📍 Gundlapochampally, Hyderabad</p>
+
+<br>
+
+<h3>Pay Online</h3>
+
+<a class="btn" href="upi://pay?pa=yourupi@upi&pn=ShivaKrishnaPickles&cu=INR">Pay via UPI</a>
+
+<br><br>
+
+<h3>Follow us</h3>
+
+<a href="https://instagram.com" target="_blank">Instagram</a>
+
+<br><br>
+
+<iframe
+src="https://maps.google.com/maps?q=Gundlapochampally%20Hyderabad&t=&z=13&ie=UTF8&iwloc=&output=embed"
+width="100%"
+height="300"
+style="border:0">
+</iframe>
+
+</section>
+
+<footer>
+
+<p>© 2026 Shiva Krishna Pickles | Homemade With Love</p>
+
+</footer>
+
+</body>
+</html>
